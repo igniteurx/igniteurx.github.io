@@ -3,7 +3,7 @@
 // Config 
 //-------------------------------------------------------------
 
-var countdownDate = "2016/10/10"; // Enter your countdown date
+var countdownDate = "2016/06/21"; // Enter your countdown date
 
 var locationTitle = "Ignite"; // Enter your event title
 var locationAddress = "563 Salvatierra Walk Stanford, CA 94305 "; // Enter your event address
