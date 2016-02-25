@@ -5,8 +5,8 @@
 
 var countdownDate = "2014/10/10"; // Enter your countdown date
 
-var locationTitle = "The EventLand Conference"; // Enter your event title
-var locationAddress = "4 Yawkey Way Boston, MA 02215"; // Enter your event address
+var locationTitle = "Ignite"; // Enter your event title
+var locationAddress = "563 Salvatierra Walk Stanford, CA 94305 "; // Enter your event address
 
 var twitterWidgetId = "345650238654136320"; // Enter your twitter widgetId
 
