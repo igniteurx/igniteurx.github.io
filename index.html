@@ -1,783 +1,528 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IgniteURx - Bringing Together leaders in Uniersity Recruiting</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>IgniteUR(x)</title>
 
-    <link href="css/styles.css" rel="stylesheet">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <link href="css/styles-ie.css" rel="stylesheet">
-    <![endif]-->
-  </head>
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="73">
+  <link rel="stylesheet" href="style.css">
 
-    
-    
-    <!-- Navigation start -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><strong>Ignite</strong>URx</a>
+</head>
+<body>
+
+
+<div class="banner">
+  <div class="container text-center">
+    <h1 id="logo" class="logo">
+    <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="550px" height="160px" viewBox="0 0 550 160" enable-background="new 0 0 550 160">
+    <g>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M407,4c1.3,0,2.6,0,4,0c3.4,0.6,7.3,1.9,10.3,3.4
+        c3,1.5,6.1,3.4,8.2,5.5c-2.1,0.2-4.2,1.5-5.5,2.9c-5.1,5.6-7.4,16.7-9,26.9c-1.6,10.6-2.1,21.6-2.6,33.5
+        c-1.2,25.7-2.4,58.5,15.3,66.4c-5.5,3-11.2,7-18.7,6.9c-12.3-0.3-15.4-12.1-15.6-25.3c-2.5,2-3.7,5.9-6.3,9
+        c-4.6,5.4-12.4,9.6-20.6,6.3c-12.2-4.8-12.9-27.2-9-41.9c3-11.1,8.5-20.1,15.6-24.3c2.8-1.6,7.1-2.9,10.8-2.6
+        c3.3,0.3,5.6,2,7.6,3.2c0.1,0.1,1.1,1.3,1.3,0.3c0.8-10.3,0.5-25.3,0.5-38.8C393.3,20.2,394.9,6,407,4z M380.2,101.3
+        c-1.7,5.8-3,10.5-2.4,16.3c0.3,2.7,1.4,5.8,2.9,6.1c1,0.2,3.4-1.2,4.2-1.8c3.6-3.1,5.8-10.1,7.1-16.6c1-5.1,1.6-10.8,1.6-16.3
+        c0-1.9,0.6-4.7-0.8-5.3C385.5,85.4,382.3,93.8,380.2,101.3z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M6,124.8c0-1.7,0-3.3,0-5c1.5-11.7,9.2-20.3,16.9-25.6
+        c2.3-1.6,5-2.9,6.9-5c-5.6-3-10.4-5-14.2-9.2c-3.8-4.2-7.2-9.2-8.2-15.3C4.3,46.1,21.5,33.7,32.9,28c12.3-6.1,37.9-13.2,49.3-2.1
+        c4.6,4.5,9,14.8,5.3,23.2c-1.9,4.2-5.2,6.5-10.3,7.9c-0.8-1.8-1.7-3.9-3.7-5c-5.2-2.8-14.6-1.2-20.8,0.8c-7,2.2-12.9,5.5-16.1,9
+        c-2.5,2.7-5.8,9-4.2,13.4c2.4,6.7,17,1.8,21.6,0c3.5-1.3,6.6-2.9,9.8-4.2c3.1-1.3,6.9-3.4,10.8-2.1c1.1,4.2-0.2,5.6-2.9,7.1
+        c-7.5,4.2-14.6,7.8-21.4,12.4c-4.1,2.8-8.5,5.8-12.7,9.8c-2.7,2.6-9,9-7.9,14.8c0.4,2.2,3.1,4.4,5.3,5.3c5.7,2.4,12.8,1.8,19,0.8
+        c6.4-1,12-3,16.3-5.3c8.3-4.3,15.1-10.7,19-18.5c0.6-1.2,0.7-2.7,1.8-3.7c7.3,1.2,11.5,3.8,14,9c5.2,10.9-2.4,21.9-9,27.7
+        c-13.3,11.6-35.7,20.8-60.9,19.2C19.7,146.5,8,139.3,6,124.8z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M316.1,46.7c19.8,1.9,37.3-1.3,50.1-8.2c4.3-2.3,7.7-5.6,11.6-7.9
+        c2.7,4.8,6.7,10.2,4.7,18.5c-0.6,2.3-2.1,4.8-3.4,6.3c-11.4,12.9-44.4,6.4-64.1,5.5c-1.9,23.5-3.6,54.2,3.2,73.6
+        c-5.6,3.5-11.1,7.8-20.5,6.7c-1.1-0.1-2.9-1.3-3.5-2.2c-3.4-5.3-1.7-12.6-1.3-19.2c1.2-19.4,3.3-39,3.4-59.3
+        c-2.5-0.1-5,0.6-7.6,1.1c-2.5,0.4-5.7,1.4-7.6,1.1c-3.3-0.5-6.3-6-5-11.1c3.9-4.3,12.3-4.3,19.8-5c1.3-7.8-1.4-15.9-3.4-22.1
+        c5.7-2.9,18-4.6,22.4,0.3C319.4,29.8,315.5,38.8,316.1,46.7z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M231.4,48.8c-6.4-0.9-12.8-2.2-19.5-2.6c-6.8-0.4-13.8,0-20.6,1.1
+        c-12.4,2-24.3,6.3-33,11.3c1,7.7,2.4,16,2.1,24.5c-0.6,16.6-3.6,32-9,44.3c-2.7,6.2-6.2,12.5-10.5,16.1c-2.5,2.1-6.6,4.6-11.6,3.7
+        c-9.1-1.7-13.1-16.3-14.8-25.8c-0.9-5.4-1.7-12.1-1.6-18.7c0.1-6.5,0.5-13.4,2.6-17.4c1.8-3.3,6.3-7.1,10.5-9
+        c2.7-1.2,6.3-1.8,9.5-0.8c-2.2,10.2-4.8,22-2.9,35.6c0.5,3.6,2.1,11.1,5.8,11.3c4.2,0.2,6.4-7.1,7.6-11.1
+        c1.5-4.7,2.5-10.3,2.9-15.8c1-12.8-0.8-22.9-4.2-31.9c-8.1,0.7-15.7,3.7-24.3,3.7c-9.9,0-19.4-3.7-23.5-10.5
+        c-5-8.4-0.9-18.4,5-22.9c11.8-9,33.4-3.8,43,4.5c3,2.6,4.3,5.4,7.1,7.9c9.1-3.4,17.8-8.6,27.2-13.2c9.2-4.5,19.5-10,30.6-10.8
+        C226.2,21,234.1,31.7,231.4,48.8z M121.8,45.4c-4.2-0.3-8.3,0.5-10,2.9c-4.2,5.9,4.2,8.9,10.5,8.4c5.6-0.5,10.7-2.4,14.8-4
+        C134.9,49.2,128.1,45.8,121.8,45.4z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M546,97.3c0,1,0,1.9,0,2.9c-0.6,1.7-1.4,3.7-2.9,5.3
+        c-9.5,10.1-28.1,11.9-47.2,11.9c-19.5,0-38.8-3.5-53.5-5.8c0.2,4.9,0.6,9.2,2.6,12.7c2.2,3.7,7.3,6.5,12.7,4.7
+        c2-0.7,4.4-2.8,5.5-4.2c1.4-1.8,2.4-5.3,4.2-5.8c2.1-0.5,4.9,0.9,6.3,1.8c6.2,4,2.8,11.8-1.6,14.8c-8.7,6-24.2,6.8-34,2.4
+        c-9.6-4.3-16.1-13.4-16.9-25.6c-0.9-12.9,3.5-23.9,8.4-31.1c4.9-7.2,13.3-14.7,25-14.8c12.6-0.1,23.2,7.5,24.3,18.2
+        c1.2,11.5-6.6,19.9-15.3,23.5c16.5-0.5,27.6-1.4,40.6-5.8c8.4-2.8,15.4-7.9,21.4-13.4c1.7-1.6,4.8-5.3,6.6-5.3
+        c0.8,0,2.1,1.3,3.4,2.1C540.3,88.7,544.7,92.3,546,97.3z M455.3,98.7c2.6-2.6,5.1-7.4,4.5-11.3c-0.7-4.6-5.3-4.5-8.2-2.4
+        c-4.6,3.4-7.6,12-8.7,18.5C447.7,103.2,452.1,101.8,455.3,98.7z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M280.5,156.1c-1.3,0-2.6,0-4,0c-15.4-2.2-15.3-22-14-39.8
+        c0.7-10,2.2-22.8-2.1-29c-1.6-2.3-6.7-4.6-9.2-1.8c-1.5,1.7-1.6,8.4-1.8,11.9c-0.9,12.9-1.3,28.8,1.6,38.5c0.9,2.9,2.3,4.1,3.2,7.4
+        c-7.2,0.5-15.5,2.3-21.1-0.5c-7.3-3.7-6-14.7-5-25c1-9.7,2-20.9,0.5-30.1c-0.8-4.9-2.8-9.3-2.6-13.7c5-1.1,14.7-8.8,21.6-5.8
+        c2.7,1.2,3.8,4.2,3.7,8.7c0.9,0.3,1.5-0.6,2.1-1.1c4.2-3.1,8.4-7.1,14.8-7.6c5.9-0.5,10,2.2,12.1,5.3c10.1,14.7-4.6,50,4,65.9
+        c2.4,4.5,7.7,6.7,12.7,8.2C292.7,151.6,287.6,154.9,280.5,156.1z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M184.2,115.5c-0.3,10.5,4.3,20,14.8,17.4c3.8-0.9,6.1-4.3,7.9-7.4
+        c0.6-1,1-2.3,2.1-2.9c5,0.9,9.3,2.5,10,7.1c0.8,5-3.7,9.1-7.4,11.1c-5,2.6-11.7,4-17.9,4c-9.6,0-16.2-3.1-20.6-6.9
+        c-6.8-5.9-10.9-15.6-10-29c0.7-10.3,4.3-17.9,9.5-24.8c5.2-6.9,12-12.6,21.6-13.4c9.2-0.8,16,2.1,20.3,6.1c5.2,4.9,9.3,15.7,5.3,25
+        c-2.9,6.8-10,13.6-19,14.5C195.9,116.8,190.3,116,184.2,115.5z M201.6,92.1c-0.1-1.7-0.9-3.6-1.8-4.2c-3.4-2.1-7.7,2-9.2,4
+        c-3.3,4.2-5.1,10.9-5.8,15.6C193.5,107.5,202.1,100.1,201.6,92.1z"/>
+      <path stroke="#FFFFFF" stroke-width="2" fill="transparent" class="fill" d="M351.4,136.1c-2.4,1.2-6.3,2.1-10.5,2.6c-4.7,0.6-11.4,1.4-14-0.8
+        c-4.1-3.6-2.5-13.3-1.8-20.8c0.4-4.3,0.9-8.8,1.3-13.2c0.9-9.9-1-18.8-2.4-26.4c4.8-1.1,10.6-3.9,16.1-4.2c1.8-0.1,3.6-0.1,5,0.8
+        c4.1,2.6,2,12.8,1.1,18.2c-1.8,10.3-3.9,23.5-0.3,33.2C347.4,129.7,349.7,132.1,351.4,136.1z"/>
+    </g>
+    </svg>
+
+  </h1>
+    <h2 class="banner-heading">June 21, 2016 | Stanford </h2>
+    <p class="p-big col-8-tablet col-6-desktop no-float center-element">
+      What the FUCK!!!!!
+    </p>
+    <div class="banner-buttons">
+      <a class="button button-primary" href="#"><span class="icon icon-right chevron-right">Register</span></a>
+      <a class="button" href="#">Discover</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="content">
+  <div class="introduction-block row-6 container">
+    <div class="clear">
+      <div class="col-6-desktop">
+        <div class="col-11 no-float no-padding">
+          <h2 class="uppercase">Main goals of the event</h2>
+          <p class="p-big">
+            Design must be functional, and functionality must be translated into visual aesthetics without any reliance on gimmicks that have to be explained.
+          </p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident.
+          </p>
         </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#speakers">Speaker</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#newsletter">Reminder</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#register">Registration</a></li>
+      </div>
+      <div class="col-6-desktop">
+        <div class="tabs tabs-primary">
+          <ul class="tabs-list clear">
+            <li class="col-6-tablet block text-center no-padding tab active"><a href="#learning-objective" data-toggle="tab">Learning Objective</a></li>
+            <li class="col-6-tablet block text-center no-padding tab"><a href="#target-audience" data-toggle="tab">Target Audience</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navigation end -->
-
-    <!-- Header start -->
-    <header>
-    
-      <div id="header-bg-fade">
-        <!-- Header background images -->
-        <img class="img-fade" src="img/header-bg-3.jpg">
-        <img class="img-fade" src="img/header-bg-1.jpg">
-        <img class="img-fade" src="img/header-bg-2.jpg">
-      </div>
-      
-
-      <div class="event-info">
-
-        <div class="event-info-nav">
-          <div class="event-info-nav-button top left">
-            <i class="fa fa-briefcase"></i>
-            <a href="#about">Conference</a>
-          </div>
-          <div class="event-info-nav-button top right">
-            <i class="fa fa-bullhorn"></i>
-            <a href="#speakers">Speakers</a>
-          </div>
-          <div class="event-info-nav-button bottom left">
-            <i class="fa fa-list"></i>
-            <a href="#program">Program</a>
-          </div>
-          <div class="event-info-nav-button bottom right">
-            <i class="fa fa-map-marker"></i>
-            <a href="#location">Location</a>
-          </div>
-        </div>
-
-        <div class="event-info-date">
-          <div class="event-countdown"></div>
-          <h1>Ignite University Recruiting - Tech</h1>
-          <h2>June 21, 2016</h2>
-        </div>
-
-        <div class="clearfix"></div>
-
-        <a href="#register" class="btn btn-color1 pull-right event-info-register-btn">Register Now <i class="fa fa-chevron-right"></i></a>
-
-      </div>
-      <div class="event-info-bg-left"></div>
-      <div class="event-info-bg-right"></div>
-
-    </header>
-    <!-- Header end -->
-
-    <!-- About start -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 pull-right">
-            <img class="img-responsive" src="img/about.jpg" alt="About the Conference">
-          </div>
-          <div class="col-md-6 pull-left">
-            <h2>About IgniteUR(x)</h2>
-            <h3>University Recruiting Starts Here</h3>
-            <p>Ignite University Recruiting(Tech) brings together leaders on both sides of the UR table. Ignite is where building and refreshing the meaningful relationships at the core of any succesful UR program starts.</p>
-            <p> We have curated a program that partnered with relevant and engaging content, are two of the most important foundations of a social recruiting strategy that will produce results. This year, we’ve crafted an agenda full of discussions to share the knowledge, strategic insights and technologies that will set you up for success in university recruiting.</p>
-            <div class="buttons">
-              <a href="#program" class="btn btn-color1">Program</a>
-              <a href="#speakers" class="btn btn-color2">Speaker</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About end -->
-
-    <!-- Speakers start -->
-    <section id="speakers">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>Featured Speakers</h2>
-            <!-- <h3>IgniteURx Featured Speakers</h3> -->
-          </div>
-        </div>
-        <div class="row speakers">
-          <div class="col-md-4">
-            <div class="speaker text-center">
-              <div class="img"><img class="img-responsive" src="img/jose_cong.jpg" alt="Speaker Image"></div>
-              <div class="name">Jose Benitez Cong</div>
-              <div class="company">Founder & CEO OF Stealth Mode</div>
-              <div class="description"> Our keynote speaker Jose Cong has built wining teams and created lasting cultures at some of the most recognized companies and consumer electronics products in history including Apple, Nest, and Google. He is the first to admit that he can't code and can't design but what he can do is recruit and form overachieving teams that ship product. He has been involved with teams that worked on the iPod, iPhone, RF/Wireless Engineering, Apple's Camera Design, Acoustics Engineering, and took Nest from 30 to ~900 employees and an acquisition by Google. Strong university recruiting strategy and partnerships. </div>
-              <div class="socialmedia">
-                <a href="http://twitter.com/Jose_Cong" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/josecong" class="btn"><i class="fa fa-linkedin"></i></a>
-                <a href="#" class="btn"><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="speaker text-center">
-             <div class="img"><img class="img-responsive" src="img/farouk_dey.jpg" alt="Speaker Image"></div>
-             <div class="name">Farouk Dey </div>
-             <div class="company">AVP and Dean of Career Education Stanford Univeristy</div>
-             <div class="description">Farouk Dey has over 15 years of progressive leadership experience in university student affairs. He serves on the Board of Directors of the National Association for Colleges and Employers (NACE). Farouk had served in leadership roles at Carnegie Mellon University, the University of Florida, National Association for Colleges and Employers (NACE), and American College Personnel Association (ACPA). He has a PhD in Education in Higher Education Administration and a Specialist degree in Education in Higher Education Administration from the University of Florida, a Master's degree in Counseling Psychology and an MBA from Washington State University, and a Bachelor's degree in Business Administration in Finance from the University of Wisconsin-Milwaukee. His research interests focus on trends in higher education and career services, identity development for underrepresented groups, diversity and multicultural competence, authenticity in leadership and career development, and higher education in developing countries. A native of Algeria, he currently lives in the San Francisco Bay Area with his wife Amel and their two children Ilyas and Yasmine.</div>
-             <div class="socialmedia">
-              <a href="https://twitter.com/faroukdey" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.linkedin.com/in/faroukdey" class="btn"><i class="fa fa-linkedin"></i></a>
-                <a href="http://beam.stanford.edu" class="btn"><i class="fa fa-google-link"></i></a>
-            </div> 
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="speaker text-center">
-            <div class="img"><img class="img-responsive" src="img/andrew_maguire.jpeg" alt="Speaker Image"></div>
-            <div class="name">Andrew Maguire</div>
-            <div class="company">CEO & Founder Looksharp (powering InternMatch)</div>
-            <div class="description">Frustrated with his own experience in college, Andrew founded Looksharp, the largest database of college internships online, in 2009. A graduate of The Columbia University in the City of New York, Andrew has been at the forefront of the technological revolution within university recruiting. He is deeply interested in the intersection between scalable business and social impact, particularly as it relates to the education space.</div>
-            <div class="socialmedia">
-              <a href="https://twitter.com/andykmaguire" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.linkedin.com/in/andrewkmaguire" class="btn"><i class="fa fa-linkedin"></i></a>
-              <a href="http://looksharp.com" class="btn"><i class="fa fa-google-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Speakers end -->
-
-  <!-- Program start -->
-  <section id="program">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Conference Program</h2>
-          <h3>It's a three-day event that included workshops and networking time.</h3>
-        </div>
-        <div class="col-md-12">
-          <div class="program-tabs">
-
-            <!-- Nav tabs start-->
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab">June 21, 2016</a></li>
-             <!--  <li><a href="#tab2" data-toggle="tab">September 16, 2012</a></li>
-              <li><a href="#tab3" data-toggle="tab">September 16, 2012</a></li> -->
-              <!-- <li class="dropdown by-speakers">
-                <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">By Speaker <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
-                  <li><a href="#tab4" tabindex="-1" data-toggle="tab">Mike Smith</a></li>
-                  <li><a href="#tab5" tabindex="-1" data-toggle="tab">Jane Doe</a></li>
-                  <li><a href="#tab5" tabindex="-1" data-toggle="tab">Fred Wallet</a></li> -->
-                </ul>
-              </li>
-            </ul>
-            <!-- Nav tabs end -->
-
-            <!-- Tab panes start -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade in active" id="tab1">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">8:30 am - 9:30 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Registration & Breakfast</h3>
-                      <!-- <p>Chec <span class="label label-default">This is an labeled text snippet!</span> Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p> -->
-                    </div>
-                  </div>
+          <div class="tab-content">
+            <div class="tab-pane active" id="learning-objective">
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequunur magni dolores eos.
+              </p>
+              <div class="clear">
+                <div class="col-7-tablet">
+                  <ul class="list">
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                  </ul>
                 </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">9:45 am - 10:45 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Opening Keynote  </h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. <a class="my-tooltip" href="#" data-toggle="tooltip" title="This is an demo tooltip!">Hover over me</a> Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">11:00 am - 12:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Breakout Session 1</h3>
-                      <p>Who you need to know on campus and why. <span class="label label-default">Recruiter Track</span> A Q&A panel of leading university administrators who faccilitate university recruiting through support of student gropus and programming. Moderated by Insert Name, panelists will discuss their work and best practices around navigation the multiple channells on campus.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:30 pm - 1:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Lunch</h3>
-                      <p>Enjoy lunch catered by {Insert Food Sponsor} as attendees share their funniest stories from the the trail</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">2:00 pm - 3:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Working with Students Groups</h3>
-                      <p>Student panel, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">3:30 pm - 4:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Closing Keynote</h3>
-                      <p>Farouk Dey will discuss the , sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">5:00 pm - 6:30 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Happy Hour</h3>
-                      <p>Join us for happy hour at Shinola Detroit in downtown Palo Alto.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab2">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">2:00 pm - 3:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Working with Students Groups</h3>
-                      <p>Student panel, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">3:30 pm - 4:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Closing Keynote</h3>
-                      <p>Farouk Dey will discuss the , sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">5:00 pm - 6:30 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Happy Hour</h3>
-                      <p>Join us for happy hour at Shinola Detroit in downtown Palo Alto.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab3">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab4">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab5">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
+                <div class="objective">
+                  <img class="cloud" src="img/cloud.svg" alt="Cloud">
+                  <img class="objective-img heart heart-1" src="img/heart.svg" alt="Heart">
+                  <img class="objective-img images" src="img/images.svg" alt="Images">
+                  <img class="heart heart-2" src="img/heart.svg" alt="Heart">
+                  <img class="heart heart-3" src="img/heart.svg" alt="Heart">
+                  <img class="objective-img video" src="img/video.svg" alt="Video">
+                  <img class="heart heart-4" src="img/heart.svg" alt="Heart">
+                  <img class="heart heart-5" src="img/heart.svg" alt="Heart">
+                  <img class="objective-img music" src="img/music.svg" alt="Music">
                 </div>
               </div>
             </div>
-            <!-- Tab panes end -->
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sponsors start -->
-  <section id="sponsors">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h3>IgniteURx Conference is Presented by</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="carousel-inner">
-
-                  <!-- Sponsor Slide 1 start -->
-                  <div class="item active">
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor1.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor2.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor3.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
-                  </div>
-                  <!-- Sponsor Slide 1 end -->
-
-                  <!-- Sponsor Slide 2 start -->
-                  <div class="item">
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor3.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor1.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor2.jpg" alt="Sponsor"></div>
-                    </div>
-                  </div>
-                  <!-- Sponsor Slide 2 end -->
-
-                </div>
-              </div>
+            <div class="tab-pane" id="target-audience">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
           </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-          </a>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- Sponsors end -->
 
-<!-- Newsletter start -->
-<section id="newsletter">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-12">
-        <h2>Don't miss the event!</h2>
+  <hr class="hr">
+
+  <div class="speakers-block row-6 container">
+    <div class="text-center">
+      <h2 class="h2 uppercase">Great speakers</h2>
+      <p class="p-big">
+        Sed ut perspiciatis unde omnis iste natus error
+      </p>
+    </div>
+    <ul class="event-speakers clear">
+      <li class="col-6-tablet col-3-desktop">
+        <div class="col-12-tablet no-float">
+          <a class="event-speaker" href="#">
+            <img class="block" src="img/edward.jpg" alt="Edward">
+          </a>
+          <h3 class="uppercase h4"><a class="event-speaker-name" href="#">Edward</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </li>
+      <li class="col-6-tablet col-3-desktop">
+        <div class="col-12-tablet no-float">
+          <a class="event-speaker" href="#">
+            <img class="block" src="img/lucy.jpg" alt="Lucy">
+          </a>
+          <h3 class="uppercase h4"><a class="event-speaker-name" href="#">Lucy</a></h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </li>
+      <li class="col-6-tablet col-3-desktop">
+        <div class="col-12-tablet no-float">
+          <a class="event-speaker" href="#">
+            <img class="block" src="img/nathan.jpg" alt="Nathan">
+          </a>
+          <h3 class="uppercase h4"><a class="event-speaker-name" href="#">Nathan</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </li>
+      <li class="col-6-tablet col-3-desktop">
+        <div class="col-12-tablet no-float">
+          <a class="event-speaker" href="#">
+            <img class="block" src="img/jacob.jpg" alt="Jacob">
+          </a>
+          <h3 class="uppercase h4"><a class="event-speaker-name" href="#">Jacob</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="col-10-tablet col-6-desktop no-float center-element text-center">
+      <p class="p-big font-500">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+      </p>
+      <a class="button button-primary" href="#"><span class="icon icon-right chevron-right">Register</span></a>
+    </div>
+  </div>
+
+  <hr class="hr">
+
+  <div class="schedule-block row-6 container">
+    <div class="clear">
+      <div class="col-6-desktop">
+        <div class="col-11 no-float no-padding">
+          <h2 class="uppercase">Event schedule</h2>
+          <p class="p-big">
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+          </p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident.
+          </p>
+          <p>
+            <a class="icon icon-left arrow-down uppercase" href="#">All schedule (PDF)</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-6-desktop">
+        <div class="tabs tabs-secondary">
+          <ul class="tabs-list clear">
+            <li class="inline-block text-center no-padding tab tab-secondary active"><a href="#event-group-1" data-toggle="tab">November 08</a></li>
+            <li class="inline-block text-center no-padding tab tab-secondary"><a href="#event-group-2" data-toggle="tab">November 09</a></li>
+          </ul>
+          <div class="tab-content tab-content-secondary">
+
+            <div class="tab-pane active" id="event-group-1">
+              <div class="panel-group" id="event-1">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="event-schedule-title" data-toggle="collapse" data-parent="#event-1" href="#event-1-auditorium-a">
+                        <span class="event-schedule-time">08:00 - 10:00</span>
+                        <span class="event-schedule-name">Auditorium A</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="event-1-auditorium-a" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    </div>
+                  </div>
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="event-schedule-title collapsed" data-toggle="collapse" data-parent="#event-1" href="#event-1-auditorium-b">
+                        <span class="event-schedule-time">14:00 - 16:00</span>
+                        <span class="event-schedule-name">Auditorium B</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="event-1-auditorium-b" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="tab-pane" id="event-group-2">
+              <div class="panel-group" id="event-2">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="event-schedule-title" data-toggle="collapse" data-parent="#event-2" href="#event-2-auditorium-a">
+                        <span class="event-schedule-time">09:00 - 10:30</span>
+                        <span class="event-schedule-name">Auditorium A</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="event-2-auditorium-a" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    </div>
+                  </div>
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="event-schedule-title collapsed" data-toggle="collapse" data-parent="#event-2" href="#event-2-auditorium-b">
+                        <span class="event-schedule-time">12:00 - 13:30</span>
+                        <span class="event-schedule-name">Auditorium B</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="event-2-auditorium-b" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="alert"><!-- ajax content --></div>
+  </div>
+
+  <div class="promotional-block container">
+    <div class="clear">
+      <div class="col-6-desktop">
+        <div class="video-responsive">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mSdXHsPkg5w" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-5-desktop right-desktop row-2 row-0-desktop">
+        <h2 class="uppercase">Promotional video</h2>
+        <p class="p-big">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.
+        </p>
+        <p>
+          <a class="icon icon-right arrow-right uppercase" href="#">Youtube channel</a>
+        </p>
       </div>
     </div>
-    <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <form action="inc/form-mail.php" class="text-center" method="post" id="newsletter-form">
-      <div class="input-group">
-        <input type="text" name="email" class="form-control" placeholder="Your email address ...">
-        <input type="hidden" name="form-type" value="newsletter">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="submit" data-loading-text="Loading...">Sign Up</button>
-        </span>
+  </div>
+
+
+  <div class="gallery-block content-block container row-5-desktop">
+    <div class="clear">
+      <div class="col-5-desktop">
+        <h2 class="uppercase">Event gallery</h2>
+        <p class="p-big">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.
+        </p>
+        <p>
+          <a class="icon icon-right arrow-right uppercase" href="#">Flickr stream</a>
+        </p>
       </div>
+      <div class="col-6-desktop right-desktop row-2 row-0-tablet">
+        <div class="carousel slide" id="carousel-gallery">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-gallery" data-slide-to="1"></li>
+            <li data-target="#carousel-gallery" data-slide-to="2"></li>
+            <li data-target="#carousel-gallery" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/conference-image-1.jpg" alt="Conference">
+            </div>
+            <div class="item">
+              <img src="img/conference-image-2.jpg" alt="Conference">
+            </div>
+            <div class="item">
+              <img src="img/conference-image-3.jpg" alt="Conference">
+            </div>
+            <div class="item">
+              <img src="img/conference-image-2.jpg" alt="Conference">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grey-row">
+    <div class="register-block row-6 container text-center">
+      <h2 class="uppercase">The most simpliest way to launch your event</h2>
+      <div class="col-6-tablet no-float center-element">
+        <p class="p-big">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <form action="" class="register-form col-10-desktop col-8-hd no-float center-element">
+        <fieldset>
+          <legend class="sr">Register your event</legend>
+          <div class="clear">
+            <div class="col-3-tablet row-1 row-0-tablet">
+              <label for="name" class="sr">Full Name</label>
+              <input type="text" class="field" name="name" id="name" placeholder="Full Name">
+            </div>
+            <div class="col-3-tablet row-1 row-0-tablet">
+              <label for="email" class="sr">Email Address</label>
+              <input type="email" class="field" name="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="col-3-tablet row-1 row-0-tablet">
+              <label for="plan" class="sr">Event Plan</label>
+              <span class="select">
+                <select name="plan" id="plan">
+                  <option value="">Select plan</option>
+                  <option value="plan-1">Basic</option>
+                </select>
+              </span>
+            </div>
+            <div class="col-3-tablet row-1 row-0-tablet">
+              <button class="button button-primary"><span class="icon icon-right chevron-right">Register</span></button>
+            </div>
+          </div>
+        </fieldset>
       </form>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h3>We will inform you when the time comes</h3>
+
+  <div class="event-sponsors-block row-4 container text-center">
+    <h2 class="uppercase none-desktop">Event Sponsors</h2>
+    <ul class="event-sponsor-list">
+      <li class="row-1 row-0-desktop"><a href="#" class="sponsor sponsor-facebook"><span class="sr">Facebook</span></a></li>
+      <li class="row-1 row-0-desktop"><a href="#" class="sponsor sponsor-jquery"><span class="sr">jQuery</span></a></li>
+      <li class="row-1 row-0-desktop"><a href="#" class="sponsor sponsor-envato"><span class="sr">Envato</span></a></li>
+      <li class="row-1 row-0-desktop"><a href="#" class="sponsor sponsor-tumblr"><span class="sr">Tumblr</span></a></li>
+      <li class="row-1 row-0-desktop"><a href="#" class="sponsor sponsor-atlassian"><span class="sr">Atlassian</span></a></li>
+    </ul>
+  </div>
+
+
+  <div class="event-location-block content-block">
+    <h2 class="sr">Event Location</h2>
+
+    <div id="map" class="map">
+    <div class="location-box-container">
+        <div class="location-box">
+          <h2 class="h6 strong">Sydney Exhibition Centre</h2>
+          <address class="location">
+            Glebe Island - 41 James Craig Road <br>
+            Rozelle NSW 2039
+          </address>
+          <span class="block text-right">
+            <a class="icon icon-right arrow-right uppercase" href="#">Get directions</a>
+          </span>
+        </div>
+      </div>
+      <div id="google-map" class="google-map"></div>
     </div>
   </div>
+
 </div>
-</div>
-</section>
-<!-- Newsletter end -->
 
-<!-- Info Slider start -->
-<section id="info-slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 slider">
-        <div id="carousel-info" class="carousel slide" data-ride="carousel">
 
-          <!-- Indicators start -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-info" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-info" data-slide-to="1"></li>
-            <li data-target="#carousel-info" data-slide-to="2"></li>
-          </ol>
-          <!-- Indicators end -->
-
-          <!-- Wrapper for slides start -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/info-slider1.jpg" alt="Workshop Info">
-            </div>
-            <div class="item">
-              <img src="img/info-slider2.jpg" alt="Workshop Info">
-            </div>
-            <div class="item">
-              <img src="img/info-slider3.jpg" alt="Workshop Info">
-            </div>
+<div class="footer-block">
+  <div class="footer">
+    <div class="container-full">
+      <div class="clear footer-content-blocks">
+        <div class="footer-content-block col-4-tablet col-5-desktop">
+          <div class="col-11-desktop no-float-desktop">
+            <h3 class="h4 h-white"><strong>203</strong> People Have Signed in Since June</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
-          <!-- Wrapper for slides end -->
-
         </div>
-      </div>
-      <div class="col-md-6">
-        <h2>Conference Workshop</h2>
-        <h3>The Conference will host a series of workshops before the main conference.</h3>
-        <p>Display multiple images with beautiful carousel sliders. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <a href="#myModal" class="btn btn-color1" data-toggle="modal" data-target="#myModal">Launch demo modal!</a>
-      </div>      
-    </div>
-  </div>
-</section>
-<!-- Info Slider end -->
-
-<!-- Info Video start -->
-<section id="info-video">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Some Conference Impressions</h2>
-        <h3>Highlights and Impressions from 2013</h3>
-        <p>You can also show videos in this section! Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.</p>
-      </div> 
-      <div class="col-md-6">
-        <div class="video">
-          <iframe width="420" height="315" src="//www.youtube.com/embed/qeTxDEy0vwE?rel=0" frameborder="0" allowfullscreen></iframe>
+        <div class="footer-content-block col-4-tablet col-4-desktop">
+          <div class="col-10-desktop no-float-desktop">
+            <h3 class="h4 h-white">Need Help?</h3>
+            <p>
+              If you need help with something else, please see our fully searchable <a href="#">FAQs</a>. If you can't find what you're looking for, you can <a href="#">Contact Us</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer-content-block col-4-tablet col-3-desktop">
+          <div class="col-12-desktop no-float-desktop">
+            <h3 class="h4 h-white">Get In Touch</h3>
+            <ul class="contact-list">
+              <li><a class="footer-link icon icon-left icon-phone" href="#">+62 853 539 2001</a></li>
+              <li><a class="footer-link icon icon-left icon-email" href="#">hi@eventide.com</a></li>
+              <li><a class="footer-link icon icon-left icon-skype" href="#">Eventidesupport</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- Info Video end -->
-
-<!-- Location start -->
-<section id="location">
-  <div id="location-map"><!-- map by js --></div>
-</section>
-<!-- Location end -->
-
-<!-- Register start -->
-<section id="register">
-  
+  <div class="footer-copyright">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Register Now</h2>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="alert"><!-- ajax content --></div>
-        </div>
-      </div>
-      <div class="row">
-       <div class="col-md-6 plans">
-         <h3>1. Select your Plan</h3>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>1 DAY TICKET  <span class="label">$ 29.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>2 DAYS TICKET  <span class="label">$ 39.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>3 DAYS TICKET  <span class="label">$ 49.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-       </div>
-       <div class="col-md-6 register-form">
-         <h3>2. Enter your Personal information</h3>
-         <form action="inc/form-mail.php" method="post" id="register-form">
-          <input type="hidden" name="plan">
-          <input type="hidden" name="form-type" value="contact">
-           <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="first_name" class="form-control" placeholder="First Name">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="last_name" class="form-control" placeholder="Last Name">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="email" class="form-control" placeholder="Email">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="address" class="form-control" placeholder="Address">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="zip_code" class="form-control" placeholder="Zip Code">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="city" class="form-control" placeholder="City">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <button type="submit" class="btn btn-block btn-default" data-loading-text="Loading..." data-complete-text="Registration Successful!">Submit Registration</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div> 
-  </div>
-</section>
-<!-- Register end -->
-
-<!-- Twitter start -->
-<section id="twitter">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row">
-          <div class="col-md-2">
-            <i class="fa fa-twitter"></i>
-          </div>
-          <div class="col-md-10">
-            <div id="tweets">
-            <!-- tweets by twitterFetcher_v10_min.js -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Twitter end -->
-
-<!-- Footer start -->
-<footer>  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <p>Copyright &copy; 2013 IgniteURx Designed by themeinjection</p>
-      </div>
-      <div class="col-md-6">
-        <div class="socialmedia pull-right">
-          <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="btn"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="btn"><i class="fa fa-rss"></i></a>
-          <a href="#" class="btn"><i class="fa fa-google-plus"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- Footer end -->
-
-
-<!-- Demo Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <h2>Title Headline</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quasi velit soluta recusandae obcaecati. Libero, unde blanditiis impedit sit dolorem vero deleniti facilis a. Reiciendis alias laboriosam nostrum sint temporibus?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn cancel" data-dismiss="modal">Close</button>
-        <button type="button" class="btn save">Save changes</button>
-      </div>
+      <p>
+        Copyright 2015 Eventide
+      </p>
     </div>
   </div>
 </div>
 
-<a href="#" class="scrollup">ScrollUp</a>
+
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+<script src="js/vendor/webfontloader.js"></script>
+
+<script src="js/vendor/jquery.mobile.custom.min.js"></script>
+<script src="js/vendor/bootstrap.transition.js"></script>
+<script src="js/vendor/bootstrap.carousel.js"></script>
+<script src="js/vendor/bootstrap.collapse.js"></script>
+<script src="js/vendor/bootstrap.dropdown.js"></script>
+<script src="js/vendor/bootstrap.tab.js"></script>
+
+<script src="js/vendor/jquery.drawsvg.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script src="js/default.js"></script>
 
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/gmap3.min.js"></script>
-    <script src="js/twitterFetcher_v10_min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+</body>
 </html>
