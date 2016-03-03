@@ -1,783 +1,1223 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IgniteURx - Bringing Together leaders in Uniersity Recruiting</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Conference</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <link href="css/styles-ie.css" rel="stylesheet">
-    <![endif]-->
-  </head>
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="bower_components/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="bower_components/nivo-lightbox/nivo-lightbox-theme.css">
+    <link rel="stylesheet" href="bower_components/countdown/jquery.countdown.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="73">
-
-    
-    
-    <!-- Navigation start -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+<body data-spy="scroll">
+<div id="home"></div>
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><strong>Ignite</strong>URx</a>
-        </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#speakers">Speaker</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#newsletter">Reminder</a></li>
-            <li><a href="#location">Location</a></li>
-            <li><a href="#register">Registration</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navigation end -->
-
-    <!-- Header start -->
-    <header>
-    
-      <div id="header-bg-fade">
-        <!-- Header background images -->
-        <img class="img-fade" src="img/header-bg-3.jpg">
-        <img class="img-fade" src="img/header-bg-1.jpg">
-        <img class="img-fade" src="img/header-bg-2.jpg">
-      </div>
-      
-
-      <div class="event-info">
-
-        <div class="event-info-nav">
-          <div class="event-info-nav-button top left">
-            <i class="fa fa-briefcase"></i>
-            <a href="#about">Conference</a>
-          </div>
-          <div class="event-info-nav-button top right">
-            <i class="fa fa-bullhorn"></i>
-            <a href="#speakers">Speakers</a>
-          </div>
-          <div class="event-info-nav-button bottom left">
-            <i class="fa fa-list"></i>
-            <a href="#program">Program</a>
-          </div>
-          <div class="event-info-nav-button bottom right">
-            <i class="fa fa-map-marker"></i>
-            <a href="#location">Location</a>
-          </div>
-        </div>
-
-        <div class="event-info-date">
-          <div class="event-countdown"></div>
-          <h1>Ignite University Recruiting - Tech</h1>
-          <h2>June 21, 2016</h2>
-        </div>
-
-        <div class="clearfix"></div>
-
-        <a href="#register" class="btn btn-color1 pull-right event-info-register-btn">Register Now <i class="fa fa-chevron-right"></i></a>
-
-      </div>
-      <div class="event-info-bg-left"></div>
-      <div class="event-info-bg-right"></div>
-
-    </header>
-    <!-- Header end -->
-
-    <!-- About start -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 pull-right">
-            <img class="img-responsive" src="img/about.jpg" alt="About the Conference">
-          </div>
-          <div class="col-md-6 pull-left">
-            <h2>About IgniteUR(x)</h2>
-            <h3>University Recruiting Starts Here</h3>
-            <p>Ignite University Recruiting(Tech) brings together leaders on both sides of the UR table. Ignite is where building and refreshing the meaningful relationships at the core of any succesful UR program starts.</p>
-            <p> We have curated a program that partnered with relevant and engaging content, are two of the most important foundations of a social recruiting strategy that will produce results. This year, we’ve crafted an agenda full of discussions to share the knowledge, strategic insights and technologies that will set you up for success in university recruiting.</p>
-            <div class="buttons">
-              <a href="#program" class="btn btn-color1">Program</a>
-              <a href="#speakers" class="btn btn-color2">Speaker</a>
+            <!-- logo -->
+            <div class="site-branding">
+                <a class="logo" href="index.html">
+                    <!-- logo image  -->
+                    <img src="assets/images/logo.png" alt="Logo">
+                    Conference 2016
+                </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About end -->
 
-    <!-- Speakers start -->
-    <section id="speakers">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>Featured Speakers</h2>
-            <!-- <h3>IgniteURx Featured Speakers</h3> -->
-          </div>
-        </div>
-        <div class="row speakers">
-          <div class="col-md-4">
-            <div class="speaker text-center">
-              <div class="img"><img class="img-responsive" src="img/jose_cong.jpg" alt="Speaker Image"></div>
-              <div class="name">Jose Benitez Cong</div>
-              <div class="company">Founder & CEO OF Stealth Mode</div>
-              <div class="description"> Our keynote speaker Jose Cong has built wining teams and created lasting cultures at some of the most recognized companies and consumer electronics products in history including Apple, Nest, and Google. He is the first to admit that he can't code and can't design but what he can do is recruit and form overachieving teams that ship product. He has been involved with teams that worked on the iPod, iPhone, RF/Wireless Engineering, Apple's Camera Design, Acoustics Engineering, and took Nest from 30 to ~900 employees and an acquisition by Google. Strong university recruiting strategy and partnerships. </div>
-              <div class="socialmedia">
-                <a href="http://twitter.com/Jose_Cong" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/josecong" class="btn"><i class="fa fa-linkedin"></i></a>
-                <a href="#" class="btn"><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="speaker text-center">
-             <div class="img"><img class="img-responsive" src="img/farouk_dey.jpg" alt="Speaker Image"></div>
-             <div class="name">Farouk Dey </div>
-             <div class="company">AVP and Dean of Career Education Stanford Univeristy</div>
-             <div class="description">Farouk Dey has over 15 years of progressive leadership experience in university student affairs. He serves on the Board of Directors of the National Association for Colleges and Employers (NACE). Farouk had served in leadership roles at Carnegie Mellon University, the University of Florida, National Association for Colleges and Employers (NACE), and American College Personnel Association (ACPA). He has a PhD in Education in Higher Education Administration and a Specialist degree in Education in Higher Education Administration from the University of Florida, a Master's degree in Counseling Psychology and an MBA from Washington State University, and a Bachelor's degree in Business Administration in Finance from the University of Wisconsin-Milwaukee. His research interests focus on trends in higher education and career services, identity development for underrepresented groups, diversity and multicultural competence, authenticity in leadership and career development, and higher education in developing countries. A native of Algeria, he currently lives in the San Francisco Bay Area with his wife Amel and their two children Ilyas and Yasmine.</div>
-             <div class="socialmedia">
-              <a href="https://twitter.com/faroukdey" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.linkedin.com/in/faroukdey" class="btn"><i class="fa fa-linkedin"></i></a>
-                <a href="http://beam.stanford.edu" class="btn"><i class="fa fa-google-link"></i></a>
-            </div> 
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="speaker text-center">
-            <div class="img"><img class="img-responsive" src="img/andrew_maguire.jpeg" alt="Speaker Image"></div>
-            <div class="name">Andrew Maguire</div>
-            <div class="company">CEO & Founder Looksharp (powering InternMatch)</div>
-            <div class="description">Frustrated with his own experience in college, Andrew founded Looksharp, the largest database of college internships online, in 2009. A graduate of The Columbia University in the City of New York, Andrew has been at the forefront of the technological revolution within university recruiting. He is deeply interested in the intersection between scalable business and social impact, particularly as it relates to the education space.</div>
-            <div class="socialmedia">
-              <a href="https://twitter.com/andykmaguire" class="btn"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.linkedin.com/in/andrewkmaguire" class="btn"><i class="fa fa-linkedin"></i></a>
-              <a href="http://looksharp.com" class="btn"><i class="fa fa-google-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Speakers end -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-  <!-- Program start -->
-  <section id="program">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Conference Program</h2>
-          <h3>It's a three-day event that included workshops and networking time.</h3>
-        </div>
-        <div class="col-md-12">
-          <div class="program-tabs">
+        </div><!-- /.navbar-header -->
 
-            <!-- Nav tabs start-->
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab">June 21, 2016</a></li>
-             <!--  <li><a href="#tab2" data-toggle="tab">September 16, 2012</a></li>
-              <li><a href="#tab3" data-toggle="tab">September 16, 2012</a></li> -->
-              <!-- <li class="dropdown by-speakers">
-                <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">By Speaker <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
-                  <li><a href="#tab4" tabindex="-1" data-toggle="tab">Mike Smith</a></li>
-                  <li><a href="#tab5" tabindex="-1" data-toggle="tab">Jane Doe</a></li>
-                  <li><a href="#tab5" tabindex="-1" data-toggle="tab">Fred Wallet</a></li> -->
-                </ul>
-              </li>
+        <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="nav navbar-nav navbar-right">
+
+                <!-- navigation menu -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#partner">Partner</a></li>
+                <li><a href="#sponsorship">Sponsorship</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#photos">Photos</a></li>
+
             </ul>
-            <!-- Nav tabs end -->
-
-            <!-- Tab panes start -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade in active" id="tab1">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">8:30 am - 9:30 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Registration & Breakfast</h3>
-                      <!-- <p>Chec <span class="label label-default">This is an labeled text snippet!</span> Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">9:45 am - 10:45 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Opening Keynote  </h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. <a class="my-tooltip" href="#" data-toggle="tooltip" title="This is an demo tooltip!">Hover over me</a> Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">11:00 am - 12:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Breakout Session 1</h3>
-                      <p>Who you need to know on campus and why. <span class="label label-default">Recruiter Track</span> A Q&A panel of leading university administrators who faccilitate university recruiting through support of student gropus and programming. Moderated by Insert Name, panelists will discuss their work and best practices around navigation the multiple channells on campus.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:30 pm - 1:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Lunch</h3>
-                      <p>Enjoy lunch catered by {Insert Food Sponsor} as attendees share their funniest stories from the the trail</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">2:00 pm - 3:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Working with Students Groups</h3>
-                      <p>Student panel, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">3:30 pm - 4:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Closing Keynote</h3>
-                      <p>Farouk Dey will discuss the , sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">5:00 pm - 6:30 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Happy Hour</h3>
-                      <p>Join us for happy hour at Shinola Detroit in downtown Palo Alto.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab2">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">2:00 pm - 3:15 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Working with Students Groups</h3>
-                      <p>Student panel, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">3:30 pm - 4:45 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Closing Keynote</h3>
-                      <p>Farouk Dey will discuss the , sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">5:00 pm - 6:30 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Happy Hour</h3>
-                      <p>Join us for happy hour at Shinola Detroit in downtown Palo Alto.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab3">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab4">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="tab5">
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Typi non habent claritatem</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Duis autem vel eum</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Tab panes end -->
-
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </div><!-- /.container -->
+</nav>
 
-  <!-- Sponsors start -->
-  <section id="sponsors">
+<header id="site-header" class="site-header valign-center">
+    <div class="intro">
+
+        <h2>25 April, 2015 / Townhall California</h2>
+
+        <h1>Freelancer Conference 2015</h1>
+
+        <p>First &amp; Largest Conference</p>
+
+        <a class="btn btn-white inpage" href="#speakers">View Speakers</a>
+
+    </div>
+</header>
+
+<div id="countdown" class="countdown">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h3>IgniteURx Conference is Presented by</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="carousel-inner">
-
-                  <!-- Sponsor Slide 1 start -->
-                  <div class="item active">
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor1.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor2.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor3.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
-                  </div>
-                  <!-- Sponsor Slide 1 end -->
-
-                  <!-- Sponsor Slide 2 start -->
-                  <div class="item">
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor3.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor1.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor2.jpg" alt="Sponsor"></div>
-                    </div>
-                  </div>
-                  <!-- Sponsor Slide 2 end -->
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Sponsors end -->
-
-<!-- Newsletter start -->
-<section id="newsletter">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-12">
-        <h2>Don't miss the event!</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="alert"><!-- ajax content --></div>
-      </div>
-    </div>
-    <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <form action="inc/form-mail.php" class="text-center" method="post" id="newsletter-form">
-      <div class="input-group">
-        <input type="text" name="email" class="form-control" placeholder="Your email address ...">
-        <input type="hidden" name="form-type" value="newsletter">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="submit" data-loading-text="Loading...">Sign Up</button>
-        </span>
-      </div>
-      </form>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h3>We will inform you when the time comes</h3>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- Newsletter end -->
-
-<!-- Info Slider start -->
-<section id="info-slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 slider">
-        <div id="carousel-info" class="carousel slide" data-ride="carousel">
-
-          <!-- Indicators start -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-info" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-info" data-slide-to="1"></li>
-            <li data-target="#carousel-info" data-slide-to="2"></li>
-          </ol>
-          <!-- Indicators end -->
-
-          <!-- Wrapper for slides start -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/info-slider1.jpg" alt="Workshop Info">
-            </div>
-            <div class="item">
-              <img src="img/info-slider2.jpg" alt="Workshop Info">
-            </div>
-            <div class="item">
-              <img src="img/info-slider3.jpg" alt="Workshop Info">
-            </div>
-          </div>
-          <!-- Wrapper for slides end -->
-
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h2>Conference Workshop</h2>
-        <h3>The Conference will host a series of workshops before the main conference.</h3>
-        <p>Display multiple images with beautiful carousel sliders. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <a href="#myModal" class="btn btn-color1" data-toggle="modal" data-target="#myModal">Launch demo modal!</a>
-      </div>      
-    </div>
-  </div>
-</section>
-<!-- Info Slider end -->
-
-<!-- Info Video start -->
-<section id="info-video">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Some Conference Impressions</h2>
-        <h3>Highlights and Impressions from 2013</h3>
-        <p>You can also show videos in this section! Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.</p>
-      </div> 
-      <div class="col-md-6">
-        <div class="video">
-          <iframe width="420" height="315" src="//www.youtube.com/embed/qeTxDEy0vwE?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Info Video end -->
-
-<!-- Location start -->
-<section id="location">
-  <div id="location-map"><!-- map by js --></div>
-</section>
-<!-- Location end -->
-
-<!-- Register start -->
-<section id="register">
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Register Now</h2>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="alert"><!-- ajax content --></div>
-        </div>
-      </div>
-      <div class="row">
-       <div class="col-md-6 plans">
-         <h3>1. Select your Plan</h3>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>1 DAY TICKET  <span class="label">$ 29.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>2 DAYS TICKET  <span class="label">$ 39.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-         <div class="plan">
-           <div class="checkbox">
-             <i class="fa fa-square-o"></i>
-           </div>
-           <div class="offer">
-             <h4>3 DAYS TICKET  <span class="label">$ 49.00</span></h4>
-             <p>Here is some dummy text. You can also use tooltips. on top, but you can have it on the bottom too! </p> 
-           </div>
-         </div>
-       </div>
-       <div class="col-md-6 register-form">
-         <h3>2. Enter your Personal information</h3>
-         <form action="inc/form-mail.php" method="post" id="register-form">
-          <input type="hidden" name="plan">
-          <input type="hidden" name="form-type" value="contact">
-           <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="first_name" class="form-control" placeholder="First Name">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="last_name" class="form-control" placeholder="Last Name">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="email" class="form-control" placeholder="Email">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="address" class="form-control" placeholder="Address">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="zip_code" class="form-control" placeholder="Zip Code">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="text" name="city" class="form-control" placeholder="City">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <button type="submit" class="btn btn-block btn-default" data-loading-text="Loading..." data-complete-text="Registration Successful!">Submit Registration</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div> 
-  </div>
-</section>
-<!-- Register end -->
-
-<!-- Twitter start -->
-<section id="twitter">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
         <div class="row">
-          <div class="col-md-2">
-            <i class="fa fa-twitter"></i>
-          </div>
-          <div class="col-md-10">
-            <div id="tweets">
-            <!-- tweets by twitterFetcher_v10_min.js -->
+            <div class="col-md-2">
+                <h3 class="section-title">Event Start</h3>
             </div>
-          </div>
+            <div class="col-md-10">
+                <div id="defaultCountdown"></div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</section>
-<!-- Twitter end -->
-
-<!-- Footer start -->
-<footer>  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <p>Copyright &copy; 2013 IgniteURx Designed by themeinjection</p>
-      </div>
-      <div class="col-md-6">
-        <div class="socialmedia pull-right">
-          <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="btn"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="btn"><i class="fa fa-rss"></i></a>
-          <a href="#" class="btn"><i class="fa fa-google-plus"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- Footer end -->
-
-
-<!-- Demo Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <h2>Title Headline</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quasi velit soluta recusandae obcaecati. Libero, unde blanditiis impedit sit dolorem vero deleniti facilis a. Reiciendis alias laboriosam nostrum sint temporibus?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn cancel" data-dismiss="modal">Close</button>
-        <button type="button" class="btn save">Save changes</button>
-      </div>
-    </div>
-  </div>
 </div>
 
-<a href="#" class="scrollup">ScrollUp</a>
+<section id="about" class="section about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h3 class="section-title">About Us</h3>
+
+                <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the
+                    weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your
+                    best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+
+                <figure>
+                    <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
+                </figure>
+
+            </div><!-- /.col-sm-6 -->
+
+            <div class="col-sm-6">
+
+                <h3 class="section-title multiple-title">What is Our Goal?</h3>
+
+                <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the
+                    weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your
+                    best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+
+                <ul class="list-arrow-right">
+
+                    <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
+                    <li>Have dedicated 2-to-1 meetings with the experts</li>
+                    <li>Reach more consumers for less by learning new digital media skills</li>
+                    <li>Save money when spending in online advertising</li>
+
+                </ul>
+
+            </div><!-- /.col-sm-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+
+<section id="facts" class="bg-image-1 facts text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>2015<br>June 25</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>California<br>USA</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>150<br>Tickets</h3>
+            </div>
+            <div class="col-sm-3">
+                <h3>06<br>Speakers</h3>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</section>
+
+<section id="speakers" class="section speakers">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h3 class="section-title">Speakers</h3>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-1.jpg">
+                    </figure>
+
+                    <h4>Jhon Smith</h4>
+
+                    <p>CEO of Peren</p>
+
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+
+                </div><!-- /.speaker -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 col-sm-4">
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-2.jpg">
+                    </figure>
+
+                    <h4>Jhon Smith</h4>
+
+                    <p>CEO of Peren</p>
+
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+
+                </div><!-- /.speaker -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 col-sm-4">
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-3.jpg">
+                    </figure>
+
+                    <h4>Jhon Smith</h4>
+
+                    <p>CEO of Peren</p>
+
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+
+                </div><!-- /.speaker -->
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-4.jpg">
+                    </figure>
+
+                    <h4>Jhon Smith</h4>
+
+                    <p>CEO of Peren</p>
+
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+
+                <div class="speaker">
+
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-5.jpg">
+                    </figure>
+
+                    <h4>Jhon Smith</h4>
+
+                    <p>CEO of Peren</p>
+
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="speaker">
+                    <figure>
+                        <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-6.jpg">
+                    </figure>
+                    <h4>Jhon Smith</h4>
+                    <p>CEO of Peren</p>
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contribution" class="section bg-image-2 contribution">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
+
+                <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you
+                    back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you
+                    submit your best work.</p>
+
+                <a class="btn btn-white" data-toggle="modal" data-target="#submission">Submit</a>
+                <div id="submission" class="modal fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h3 class="black">SUBMIT YOUR CONTRIBUTION WORK</h3>
+                            </div>
+                            <div class="modal-body">
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <p class="pdf">
+                                                        Submitted papers will be reviewed by committee reviewers and be
+                                                        scheduled for either oral or poster presentation during the
+                                                        conferences if the topic is relevant and the quality of the data
+                                                        justifies scheduling. Irrelevant or poor-quality abstracts may
+                                                        be rejected. Reviewed and accepted papers will receive
+                                                        notification information via email on Notification day, and will
+                                                        be requested to register before the Registration Deadline.
+                                                    </p>
+                                                    <p class="pdf">
+                                                        <span class="ion-ios-paper"></span>
+                                                    </p>
+                                                    <p class="down">
+                                                        Download Our all Price and Submit Methods
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h3 class="section-title">Submission Form</h3>
+                                                </div>
+                                            </div>
+
+                                            <form action="php/submission.php" id="submission_form" method="post">
+                                                <div class="row">
+                                                    <div class="col-md-12" id="registration-msg" style="display:none;">
+                                                        <div class="alert"></div>
+                                                    </div>
+                                                    <div class="col-md-10 col-md-offset-1">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control"
+                                                                           placeholder="First Name"
+                                                                           name="fname" required>
+                                                                </div> <!-- /.form-group -->
+                                                            </div> <!-- /.col-sm-6 -->
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control"
+                                                                           placeholder="Last Name"
+                                                                           name="lname" required>
+                                                                </div> <!-- /.form-group -->
+                                                            </div> <!-- /.col-sm-6 -->
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <input type="email" class="form-control"
+                                                                           placeholder="Email" name="email"
+                                                                           required>
+                                                                </div> <!-- /.form-group -->
+                                                            </div> <!-- /.col-sm-6 -->
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control"
+                                                                           placeholder="Subject" id="subject"
+                                                                           name="subject" required>
+                                                                </div> <!-- /.form-group -->
+                                                            </div> <!-- /.col-sm-6 -->
+                                                            <div class="col-sm-12">
+                                                                <div class="form-group">
+                                                                    <textarea class="form-control" rows="6"
+                                                                              placeholder="Message"
+                                                                              name="message"></textarea>
+                                                                </div> <!-- /.form-group -->
+                                                            </div> <!-- /.col-sm-12 -->
+                                                            <div class="col-sm-6">
+
+                                                            </div>
+                                                            <div class="text-center col-sm-6">
+                                                                <button type="submit" class="btn btn-black"
+                                                                        id="sfsubmit">Submit
+                                                                </button>
+                                                            </div>
+                                                        </div> <!-- /.row -->
+                                                    </div> <!-- /.col-md-10.col-md-offset-1 -->
+                                                </div>
+                                            </form>
+
+                                            <div id="submissionFormResponse"></div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--  <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                 <button type="button" class="btn btn-primary">Save changes</button>
+                             </div> -->
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="schedule" class="section schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Events Schedule</h3>
+            </div>
+        </div>
+        <div class="outer-tabs">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs schedule_tabs" role="tablist">
+                <li role="presentation">
+                    <a href="#day1" aria-controls="day1" role="tab" data-toggle="tab">
+                        Day 1<br><span>19 November 2016</span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">
+                        Day 2<br><span>20 November 2016</span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#day3" aria-controls="day3" role="tab" data-toggle="tab">
+                        Day 3<br><span>21 November 2016</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane in active" id="day1">
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 01:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand collapsed" href="#">
+                                    <div class="full-width">
+                                        Our most popular service
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 03:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        Starting your own business
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 05:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        So let us answer it for you
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="day2">
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 01:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand collapsed" href="#">
+                                    <div class="full-width">
+                                        We know that sometimes it’s difficult
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 03:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        Starting your own business
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 05:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        So let us answer it for you
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="day3">
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 01:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand collapsed" href="#">
+                                    <div class="full-width">
+                                        Starting your own business Day 3
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 01:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        Starting your own business Day 3
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule_item">
+                        <div class="panel-heading">
+                            <div class="speakers">
+                                <img src="assets/images/thum_s/s-1.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="JHON SMITH">
+                                <img src="assets/images/thum_s/s-2.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="ELIZABETH">
+                                <img src="assets/images/thum_s/s-3.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="EMMA">
+                                <img src="assets/images/thum_s/s-4.png" alt="speaker" class="thum-s"
+                                     data-toggle="tooltip" data-placement="top" title="AMELIA">
+                            </div>
+                            <div class="time"><span class="ion-clock"></span> 01:00 pm</div>
+                            <h4 class="panel-title">
+                                <a class="schedule_expand" href="#">
+                                    <div class="full-width">
+                                        Starting your own business Day 3
+                                    </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="heading-1">
+                            <div class="panel-body">
+                                Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                difficult to get to the phone if you are in the middle of something and you don’t
+                                want to miss that important call that could be the start of an exciting new business
+                                opportunity, so let us answer it for you.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="registration" class="section registration">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Conference Registration</h3>
+            </div>
+        </div>
 
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/gmap3.min.js"></script>
-    <script src="js/twitterFetcher_v10_min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+        <form action="php/registration.php" id="registration_form" method="post">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" name="email"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Age" name="age"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-12 -->
+                        <div class="text-center mt20 col-sm-6 col-sm-offset-3">
+                            <button type="submit" class="btn btn-black" id="rfsubmit">Submit</button>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.col-md-10.col-md-offset-1 -->
+            </div>
+        </form>
+        <div id="registration_formResponse"></div>
+    </div>
+</section>
+
+<section id="important-date" class="section important-date">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Important Dates</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table style="width:100%">
+                    <tr>
+                        <th rowspan="2">Papers</th>
+                        <td>Submission Deadline</td>
+                        <td>Notification Date</td>
+                    </tr>
+                    <tr>
+                        <td>Before November 15, 2016</td>
+                        <td>On November 30, 2016</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Abstracts</th>
+                        <td>Submission Deadline</td>
+                        <td>Notification Date</td>
+                    </tr>
+                    <tr>
+                        <td>Before November 15, 2016</td>
+                        <td>On November 30, 2016</td>
+                    </tr>
+                    <tr>
+                        <th>Registration</th>
+                        <td>Submission Deadline</td>
+                        <td>December 15, 2016</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="partner" class="section partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Event Partners</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-1"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-2"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-3"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-4"></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-5"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-6"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-7"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box partner-box-8"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sponsorship" class="section sponsorship">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Sponsorship</h3>
+            </div>
+        </div>
+        <div class="sponsors">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/sponsor/s-1.png" alt="" class="img-responsive">
+                    <h5 class="sponsor-caption">Platinum Sponsorship</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/sponsor/s-2.png" alt="" class="img-responsive">
+                    <h5 class="sponsor-caption">Gold Sponsorship</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/sponsor/s-3.png" alt="" class="img-responsive">
+                    <h5 class="sponsor-caption">Silver Sponsorship</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="section faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Event FAQ<span>s</span></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                                   aria-controls="collapseOne"> What is the price of the ticket ?</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <h3>Hello</h3>
+                                <p>Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                   aria-controls="collapseTwo"> What is included in my ticket ?</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingTwo">
+                            <div class="panel-body">Hello</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                   aria-controls="collapseThree"> Office address ?</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingThree">
+                            <div class="panel-body">Hello</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                   aria-controls="collapseFour"> How should I dress ?</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFour">
+                            <div class="panel-body">Hello</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                                   aria-controls="collapseFive"> I have specific questions that are not addressed here.
+                                    Who can help me ?</a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFive">
+                            <div class="panel-body">Hello</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="photos" class="section photos">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Photos</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="grid">
+
+                    <li class="grid-item grid-item-sm-6">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-1.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-2.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-3.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-5.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-6.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-7.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-8.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-9.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <div class="photo-overlay">
+                            <h2>
+                                Skilet Album Cover
+                            </h2>
+                            <p class="photo-catagory">
+                                Business / Fashion
+                            </p>
+                            <a class="gallery-item" href="assets/images/photos/photos-3.jpg"
+                               data-lightbox-gallery="photos">
+                                <div class="btn btn-default classic-button">view</div>
+                            </a>
+                        </div>
+                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="location" class="section location">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3 class="section-title">Event Location</h3>
+                <address>
+                    <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br>park# 02, California <br> Phone:
+                        +1159t3764<br> Email: example@mail.com</p>
+                </address>
+            </div>
+            <div class="col-sm-9" id="map">
+                <iframe class="map_canvas"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5140.101979841458!2d-75.87722500000112!3d42.16440102632698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37eea170a5903ead!2sResident+Evil+Costuming!5e1!3m2!1sen!2sus!4v1453116369843"
+                    width="100%" height="280" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="row mt60">
+            <div class="col-md-12">
+                <h3 class="section-title ">Contact Us</h3>
+            </div>
+        </div>
+        <form action="php/contact.php" id="contactForm" method="post">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" id="email" name="email"
+                                       required>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-6 -->
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
+                            </div> <!-- /.form-group -->
+                        </div> <!-- /.col-sm-12 -->
+                        <div class="text-center mt20 col-sm-6 col-sm-offset-3">
+                            <button type="submit" class="btn btn-black" id="cfsubmit">Submit</button>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.col-md-10.col-md-offset-1 -->
+            </div>
+        </form>
+        <div id="contactFormResponse"></div>
+    </div>
+</section>
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="site-info">Organised by Organiser Name<br> Template by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                </p>
+                <ul class="social-block">
+                    <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                    <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                    <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- script -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/countdown/jquery.plugin.min.js"></script>
+<script src="bower_components/countdown/jquery.countdown.min.js"></script>
+<script src="bower_components/nivo-lightbox/nivo-lightbox.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
 </html>
