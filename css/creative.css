@@ -31,12 +31,17 @@ a:focus {
   color: #eb3812;
 }
 h1,
-h2,
+
 h3,
-h4,
-h5,
+
+
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;  color: white;
+}
+h2,
+h4
+h5{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;  color: black;
 }
 p {
   font-size: 16px;
@@ -150,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/balcony.png');
   text-align: center;
   color: white;
 }
