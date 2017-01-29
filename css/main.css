@@ -176,6 +176,7 @@ footer .copyright { line-height: 1rem; vertical-align: middle; float: right; dis
 .event .sponsors .grid { text-align: center; }
 .event .sponsors .grid img { margin-bottom: 2rem; max-height: 5rem; max-width: 70%; }
 .event .sponsors .grid img.brandmakers { padding: 1.5rem 0; }
+.event .sponsors .grid img.high-tech-campus { max-height: 7rem; }
 .speakers .people { overflow: hidden; }
 .speakers .people li { display: inline-block; float: left; padding: 0 2rem; text-align: center; width: 33.33333%; }
 .speakers .people img { border-radius: 50%; display: block; height: 9rem; margin: auto; margin-bottom: 2rem; width: 9rem; }
