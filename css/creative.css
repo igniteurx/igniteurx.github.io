@@ -431,7 +431,7 @@ body {
     border-radius:100%;
     border:3px solid #fff;
     box-shadow:1px 1px 3px 1px rgba(0,0,0,.1);
-    width:120px;display:block;margin:10px auto;
+    width:200px;display:block;margin:10px auto;
     filter:grayscale(0%);-webkit-filter:grayscale(0%);
     -mozfilter:grayscale(0%);
     }
