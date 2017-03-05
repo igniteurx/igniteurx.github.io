@@ -228,6 +228,8 @@
             <br>
             <a href="http://www.eventbrite.com/e/urx-the-tech-university-recruiting-conference-tickets-22616829546?ref=ebtnebregn" target="_blank" class="btn btn-primary btn-xl page-scroll">Register Today!</a>
 
+
+
 </section>
  <!-- Team Section -->
  
@@ -597,9 +599,22 @@ Stevon Cook is a third generation San Franciscan and graduate of San Francisco p
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Join a community of university recruiting professionals.</h2>
-<!--                 <h2>Join our mailing list and receive event updates including upcoming career fairs, hackathons, and of university recruiting news.</h2> -->
+                <p>Join our mailing list and receive event updates including upcoming career fairs, hackathons, and of university recruiting news.</p>
 
-                <a href="http://www.eventbrite.com/e/urx-the-tech-university-recruiting-conference-tickets-22616829546?ref=ebtnebregn" target="_blank" class="btn btn-default btn-xl sr-button">Register Today!</a>
+              <div class="mailing-cta">
+                <form method="post" id="mc-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="mailing-list">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                      <input type="text" name="b_ba795e8c5b19eeba5b7f2abe6_969409a69c" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-xl sr-button">
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
         </div>
     </aside>
@@ -746,6 +761,39 @@ Stevon Cook is a third generation San Franciscan and graduate of San Francisco p
   ga('create', 'UA-91454682-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+(function () {
+  var form = $('#mc-form');
+  var email = $('#mce-EMAIL');
+
+  form.on('submit', function (e) {
+    e.preventDefault();
+
+    // check if email is valid, very permissive pattern
+    // anything more agressive is likely to fail on some edge case
+    // adding JSONP doesn't seem to work, can't do proper verification
+    if (/.+\@.+/.test(email.val())) {
+      email.removeClass('bad-email');
+      $.ajax({
+        url:'http://urxconference.us14.list-manage.com/subscribe/post?u=ba795e8c5b19eeba5b7f2abe6&amp;id=969409a69c',
+        type:'post',
+        data: form.serialize(),
+        success: function () {
+          // clear the input
+          email.val('');
+          email.addClass('email-success');
+          $(email).attr("placeholder", "Success!");
+        }
+      })
+      email.val('');
+      email.addClass('email-success');
+      $(email).attr("placeholder", "Success!");
+    } else {
+      email.addClass('bad-email');
+    }
+  });
+})();
 </script>
 </body>
 
