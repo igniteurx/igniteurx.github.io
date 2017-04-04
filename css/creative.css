@@ -419,7 +419,7 @@ body {
 .team li{
   list-style-type:none;
   display:inline-block;
-  margin:20px;
+  margin:10px;
   font-size:1.4em;
   text-align:center;
 }
@@ -431,7 +431,7 @@ body {
     border-radius:100%;
     border:3px solid #fff;
     box-shadow:1px 1px 3px 1px rgba(0,0,0,.1);
-    width:200px;display:block;margin:10px auto;
+    width:175px;display:block;margin:10px auto;
     filter:grayscale(0%);-webkit-filter:grayscale(0%);
     -mozfilter:grayscale(0%);
     }
