@@ -260,3 +260,41 @@ ul.social-buttons li a:active {
   background-color: #4099FF;
 }
 
+/* ugly but prevents unintended horizontal scroll
+ */
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mailing-cta {
+  margin: auto 0;
+	width: auto;
+}
+
+.mailing-list {
+  display: flex;
+	justify-content: center;
+}
+
+
+.mailing-list input {
+	font-family: "Lato", "Proxima Nova", Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0 1em 0;
+}
+
+.mailing-list .email {
+  padding: .5em;
+  width: 15em;
+  border-radius: .5em;
+  border: 3px solid white;
+}
+
+.email.bad-email {
+  border: 3px solid #AA2408;
+}
+
+.email.email-success {
+  border: 3px solid #2EAE5E;
+}
